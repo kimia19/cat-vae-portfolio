@@ -1,0 +1,36 @@
+# Virtual environments and environment-specific secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python cache and testing artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Generated datasets, training outputs, and checkpoints
+data/
+datasets/
+outputs/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Downloaded archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.part
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
