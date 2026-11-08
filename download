@@ -1,8 +1,0 @@
-data/
-outputs/
-*.zip
-*.pt
-*.pth
-__pycache__/
-*.pyc
-.env
